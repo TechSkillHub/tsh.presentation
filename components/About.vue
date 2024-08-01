@@ -7,8 +7,8 @@
       </div>
       <div class="quotes text-center mb-10" data-aos="fade-up">
         <q>
-          Se não puder se destacar pelo talento,<br/>
-          vença pelo esforço!
+          Somos o que fazemos repetidamente.<br/>
+          A excelência então não é um ato, mas um hábito.
         </q>
         <br />
       </div>
