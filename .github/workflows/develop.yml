@@ -9,10 +9,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x, 18.x]
-
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
@@ -20,7 +16,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Build React App / Vue App (depending on user app)
+      - name: Build React App / Vue App
         run: npm run build
 
       - name: Enter dist
@@ -32,4 +28,4 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: lpvendas/
+          server-dir: apresentacao/
