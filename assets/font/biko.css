@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-  
-  html {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    background-color: black;
-  }
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background-color: black;
+}
+
+.audiowide {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
   

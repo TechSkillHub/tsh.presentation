@@ -77,7 +77,11 @@ export default {}
     color: #f5f5f7;
   }
   .skill-img {
-    height: 25rem;
+    width: fit-content;
+    @media (max-width: 768px) {
+      width: 100%;
+      height: auto;
+    }
   }
 }
 </style>

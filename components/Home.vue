@@ -63,8 +63,9 @@ export default {
 .home {
   height: 100vh;
   .full-name {
+    font-family: 'Audiowide';
     color: #00bebe;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     font-weight: 400;
     font-size: 4rem;
     line-height: 4rem;
