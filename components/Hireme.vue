@@ -17,7 +17,7 @@
           large
           color="green"
           elevation="0"
-          :href="mail"
+          href="https://wa.me/5511942814929?text=Ol%C3%A1!%20Como%20a%20TechSkillHub%20pode%20ajudar%20meu%20negócio?"
           target="_blank"
           data-aos="fade-bottom"
         >
